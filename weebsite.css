@@ -1,0 +1,55 @@
+body {
+	family-font:Arial, Helvetica;
+	background: pink;
+	}
+#header {
+	background: url("astolfo1.png") no-repeat center center fixed;
+	background-position: right;
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	height: 500px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid;
+	border-width: 10px;
+	}
+
+h2 {
+	text-align: center;
+	text-decoration: bold;
+	background: black;
+	color: red;
+	}
+#left {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	z-index: -1;
+	height: 500px;
+	width: 300px;
+	border: solid;
+	background: black;
+	color: white;
+	}
+.text {
+	color: red;
+	text-decoration: bold;
+	text-align: center;
+	background: black;
+	border: solid;
+	hight: auto;
+	width: 200px;
+	}
+.text2 {
+	text-align: center;
+	}
+.right {
+	float: right;
+	}
+.left {
+	float: left;
+	}
+	

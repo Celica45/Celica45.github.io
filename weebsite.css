@@ -1,7 +1,29 @@
-body {
-	family-font:Arial, Helvetica;
-	background: pink;
-	}
+
+@font-face {
+  font-family: VT323;
+  src: url(font/VT323-Regular.ttf);
+}
+
+
+
+html {
+	background:#00060C;
+}
+
+
+
+
+
+
+
+div {
+font-family: VT323;
+color:white;
+background:#00060C; }
+
+
+
+
 #header {
 	background: url("astolfo1.png") no-repeat center center fixed;
 	background-position: right;
@@ -17,12 +39,39 @@ body {
 	border-width: 10px;
 	}
 
-h2 {
-	text-align: center;
-	text-decoration: bold;
-	background: black;
-	color: red;
-	}
+
+
+
+.format {
+		margin: auto;
+		text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #left {
 	position: absolute;
 	left: 20px;

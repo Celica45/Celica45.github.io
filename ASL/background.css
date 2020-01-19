@@ -1,0 +1,19 @@
+#background1 {
+	background: url("background.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	background-color: rgba(252,236,252,1);
+	}
+	
+	
+	
+#background2 {
+	background: url("../space.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	background-color: rgba(252,236,252,1);
+	}
